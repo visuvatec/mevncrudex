@@ -1,13 +1,13 @@
 # mevncrudex
 
 ## Project setup
-Requirement: Make sure mongoDB server is running in local
-if not start it eg: mongod --dbpath <path to your data directory> 
-Open three Windows command prompt terminals
+
   
-In the first CPT, start the mondodb server
+### In the first CPT, start the mondodb server
+```
   >mongod --dbpath <path to your data directory>
-   
+```
+
 In the second CPT, Clone therepository and start nodemon server
 ```
   >git clone https://github.com/visuvatec/mevncrudex.git
