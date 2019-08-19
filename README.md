@@ -2,13 +2,13 @@
 
 ## Project setup
 
-  
+### Open 3 command prompt terminals.  
 ### In the first CPT, start the mondodb server
 ```
   >mongod --dbpath <path to your data directory>
 ```
 
-In the second CPT, Clone therepository and start nodemon server
+### In the second CPT, Clone therepository and start nodemon server
 ```
   >git clone https://github.com/visuvatec/mevncrudex.git
   >cd mevncrudex\api
@@ -17,7 +17,8 @@ In the second CPT, Clone therepository and start nodemon server
     ....Server is running on Port: 4000
     ....Database is connected
 ```    
-In the third CPT, start the VUE front end app
+### In the third CPT, start the VUE front end app
+```
   >cd mevncrudex
   >npm install
   >npm run serve
@@ -25,8 +26,8 @@ In the third CPT, start the VUE front end app
  ...  App running at:
   - Local:   http://localhost:<port>/
   - Network: http://192.168.1.51:<port>/
-  
-  Open a browser and enter the http://localhost:<port>
+```  
+### Open a browser and enter the http://localhost:<port>
 
 
 
