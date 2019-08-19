@@ -25,9 +25,12 @@
   (this will take a while)
  ...  App running at:
   - Local:   http://localhost:<port>/
-  - Network: http://192.168.1.51:<port>/
+  - Network: http://xxx.xxx.xxx.xxx:<port>/
 ```  
-### Open a browser and enter the http://localhost:<port>
+### Open a browser and enter 
+```
+http://localhost:<port>
+```
 
 
 
